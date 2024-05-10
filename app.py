@@ -1,7 +1,7 @@
 import streamlit as st
 import sqlite3
 import os
-from dotenv import load_dotenv
+
 import google.generativeai as genai
 from youtube_transcript import extract_transcript
 
